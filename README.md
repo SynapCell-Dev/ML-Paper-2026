@@ -13,14 +13,15 @@ This interactive Streamlit app walks you through three research papers that push
 the boundaries of EEG analysis with deep learning:
 
 1. **The Detection Challenge** — Darankoum et al., *Neuroscience Informatics*, 2026
+
    Why 95 % classification accuracy does not mean your seizure detector works, and
    how a CNN+Transformer trained on mouse EEG generalises to human data (F1 = 0.935).
 
-2. **CoSupFormer** — Darankoum et al., *arXiv*, 2025
+3. **CoSupFormer** — Darankoum et al., *arXiv*, 2025
    A dual-path dilated CNN encoder, global gated attention, and a hybrid
    supervised + contrastive loss that delivers noise-robust EEG classification.
 
-3. **SpecMoE** — Darankoum et al., *arXiv*, 2026
+4. **SpecMoE** — Darankoum et al., *arXiv*, 2026
    A spectral Mixture-of-Experts foundation model pretrained on ~9 000 hours of
    clinical EEG, achieving state-of-the-art on 7/9 benchmarks including
    cross-species tasks.
