@@ -201,7 +201,7 @@ st.markdown(
     f"""<div style="color:{TEXT_SECONDARY};font-size:0.95rem;line-height:1.8;">
     <strong style="color:{ACCENT_CYAN};">2025 — CoSupFormer</strong> showed that combining multi-scale encoding,
     global attention, gating, and contrastive learning yields robust EEG classifiers even on noisy data.<br>
-    <strong style="color:{ACCENT_AMBER};">2026 — Thomas et al.</strong> revealed the critical gap between
+    <strong style="color:{ACCENT_AMBER};">2026 — Darankoum et al.</strong> revealed the critical gap between
     classification and detection, and proved that mouse-trained models can generalize to humans.<br>
     <strong style="color:{ACCENT_PURPLE};">2026 — SpecMoE</strong> scaled up to a foundation model,
     leveraging thousands of hours of data and a spectral MoE framework to achieve state-of-the-art
