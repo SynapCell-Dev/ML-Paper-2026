@@ -1,0 +1,1002 @@
+[
+  {
+    "x": -3.6,
+    "y": -3.11,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.48,
+    "y": -1.78,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.19,
+    "y": -3.19,
+    "label": "Solvent"
+  },
+  {
+    "x": -2.74,
+    "y": -2.39,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.38,
+    "y": -2.57,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.37,
+    "y": -3.37,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.81,
+    "y": -4.53,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.38,
+    "y": -3.45,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.81,
+    "y": -2.75,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.73,
+    "y": -4.13,
+    "label": "Solvent"
+  },
+  {
+    "x": -2.83,
+    "y": -3.18,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.95,
+    "y": -4.14,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.44,
+    "y": -2.91,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.92,
+    "y": -2.7,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.48,
+    "y": -3.23,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.48,
+    "y": -1.52,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.01,
+    "y": -3.85,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.34,
+    "y": -3.98,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.83,
+    "y": -4.57,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.06,
+    "y": -2.84,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.41,
+    "y": -2.86,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.09,
+    "y": -3.24,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.18,
+    "y": -3.58,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.37,
+    "y": -2.15,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.73,
+    "y": -4.41,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.74,
+    "y": -3.31,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.54,
+    "y": -2.51,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.18,
+    "y": -2.25,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.67,
+    "y": -3.25,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.73,
+    "y": -2.22,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.38,
+    "y": -3.15,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.89,
+    "y": -3.96,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.35,
+    "y": -1.92,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.06,
+    "y": -2.2,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.71,
+    "y": -3.52,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.71,
+    "y": -1.77,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.03,
+    "y": -1.75,
+    "label": "Solvent"
+  },
+  {
+    "x": -6.1,
+    "y": -2.34,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.93,
+    "y": -3.24,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.93,
+    "y": -4.59,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.18,
+    "y": -2.71,
+    "label": "Solvent"
+  },
+  {
+    "x": -2.82,
+    "y": -3.41,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.65,
+    "y": -3.4,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.27,
+    "y": -2.74,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.42,
+    "y": -2.59,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.92,
+    "y": -2.23,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.56,
+    "y": -3.26,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.31,
+    "y": -4.17,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.76,
+    "y": -2.79,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.0,
+    "y": -3.19,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.13,
+    "y": -3.34,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.27,
+    "y": -3.64,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.13,
+    "y": -2.68,
+    "label": "Solvent"
+  },
+  {
+    "x": -2.49,
+    "y": -2.86,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.79,
+    "y": -3.06,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.54,
+    "y": -3.02,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.95,
+    "y": -1.03,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.15,
+    "y": -2.76,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.03,
+    "y": -3.93,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.09,
+    "y": -2.4,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.37,
+    "y": -3.73,
+    "label": "Solvent"
+  },
+  {
+    "x": -2.88,
+    "y": -4.12,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.53,
+    "y": -1.25,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.79,
+    "y": -3.45,
+    "label": "Solvent"
+  },
+  {
+    "x": -3.92,
+    "y": -3.4,
+    "label": "Solvent"
+  },
+  {
+    "x": -5.24,
+    "y": -2.95,
+    "label": "Solvent"
+  },
+  {
+    "x": -4.85,
+    "y": -2.62,
+    "label": "Solvent"
+  },
+  {
+    "x": 2.26,
+    "y": 5.24,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.37,
+    "y": 3.74,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.65,
+    "y": 3.02,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.18,
+    "y": 5.05,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 1.71,
+    "y": 4.15,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.21,
+    "y": 4.63,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.01,
+    "y": 2.94,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.42,
+    "y": 4.24,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.2,
+    "y": 4.28,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.46,
+    "y": 4.19,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.23,
+    "y": 3.43,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.49,
+    "y": 4.38,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.05,
+    "y": 4.53,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.22,
+    "y": 4.63,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.93,
+    "y": 3.34,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.77,
+    "y": 4.33,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.66,
+    "y": 5.52,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.8,
+    "y": 3.4,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.29,
+    "y": 3.35,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.94,
+    "y": 4.27,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.22,
+    "y": 4.66,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.01,
+    "y": 5.16,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.79,
+    "y": 6.18,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.5,
+    "y": 3.31,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.14,
+    "y": 4.39,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.82,
+    "y": 4.57,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.38,
+    "y": 3.94,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.32,
+    "y": 2.79,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.64,
+    "y": 4.69,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.17,
+    "y": 3.0,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.14,
+    "y": 4.31,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.29,
+    "y": 4.12,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.05,
+    "y": 3.09,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.29,
+    "y": 4.45,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.87,
+    "y": 4.84,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 1.9,
+    "y": 3.25,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.41,
+    "y": 4.41,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.41,
+    "y": 7.08,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.46,
+    "y": 4.91,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.76,
+    "y": 4.52,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.75,
+    "y": 4.61,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.38,
+    "y": 3.81,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.61,
+    "y": 4.07,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.85,
+    "y": 2.51,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.55,
+    "y": 2.71,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.62,
+    "y": 4.87,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.05,
+    "y": 3.14,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.43,
+    "y": 4.54,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.42,
+    "y": 4.17,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.04,
+    "y": 3.48,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.72,
+    "y": 4.51,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 1.38,
+    "y": 4.15,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.47,
+    "y": 4.68,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.37,
+    "y": 3.91,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.4,
+    "y": 4.69,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.04,
+    "y": 3.73,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.62,
+    "y": 3.48,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.41,
+    "y": 4.32,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 1.99,
+    "y": 4.73,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.7,
+    "y": 4.83,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 1.78,
+    "y": 3.61,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.01,
+    "y": 3.43,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 3.36,
+    "y": 4.62,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.26,
+    "y": 3.95,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 0.41,
+    "y": 3.18,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 2.8,
+    "y": 3.0,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.31,
+    "y": 2.86,
+    "label": "Antidepressant"
+  },
+  {
+    "x": 4.65,
+    "y": -1.9,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.15,
+    "y": -3.15,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.93,
+    "y": -1.99,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.21,
+    "y": -1.63,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.16,
+    "y": -2.48,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.06,
+    "y": -2.31,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.09,
+    "y": -1.47,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.27,
+    "y": -2.99,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.71,
+    "y": -3.56,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.88,
+    "y": -1.53,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.22,
+    "y": -2.5,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.83,
+    "y": -2.39,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.53,
+    "y": -1.32,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.29,
+    "y": -2.55,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.72,
+    "y": -1.75,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.65,
+    "y": -1.5,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.34,
+    "y": -2.45,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.6,
+    "y": -1.51,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.98,
+    "y": -1.91,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.02,
+    "y": -2.47,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.44,
+    "y": -2.16,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.83,
+    "y": -1.12,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.66,
+    "y": -1.35,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.04,
+    "y": -1.98,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.55,
+    "y": -2.25,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.26,
+    "y": -2.1,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.08,
+    "y": -1.52,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.35,
+    "y": -0.33,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.2,
+    "y": -2.97,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.93,
+    "y": -1.37,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.5,
+    "y": -1.5,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.99,
+    "y": -2.72,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.06,
+    "y": -2.54,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.78,
+    "y": -2.12,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.34,
+    "y": -2.26,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.33,
+    "y": -2.45,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.34,
+    "y": -1.81,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.2,
+    "y": -2.41,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.62,
+    "y": -1.81,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 3.84,
+    "y": -3.13,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.43,
+    "y": -2.17,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.25,
+    "y": -0.82,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.69,
+    "y": -2.13,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.98,
+    "y": -2.8,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.99,
+    "y": -2.23,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.26,
+    "y": -2.66,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.42,
+    "y": -0.77,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.91,
+    "y": -1.68,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.55,
+    "y": -2.32,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.18,
+    "y": -1.99,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.08,
+    "y": -2.62,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.02,
+    "y": -1.6,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.16,
+    "y": -1.23,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.72,
+    "y": -2.61,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.7,
+    "y": -1.85,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 6.75,
+    "y": -2.65,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.33,
+    "y": -2.48,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 3.3,
+    "y": -2.42,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.39,
+    "y": -1.88,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.27,
+    "y": -0.5,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.76,
+    "y": -2.46,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.28,
+    "y": -1.61,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 3.94,
+    "y": -0.53,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 5.94,
+    "y": -2.38,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 3.63,
+    "y": -0.92,
+    "label": "Antipsychotic"
+  },
+  {
+    "x": 4.91,
+    "y": -1.01,
+    "label": "Antipsychotic"
+  }
+]

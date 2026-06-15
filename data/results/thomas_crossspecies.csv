@@ -1,0 +1,7 @@
+model,subset,subset_description,recall,f1
+CNN – 6 layers,Subset 1 (unbalanced),"Seizure=E; Non-seizure=A,B,C,D",0.956,0.627
+CNN + Transformer,Subset 1 (unbalanced),"Seizure=E; Non-seizure=A,B,C,D",0.904,0.888
+CNN – 6 layers,Subset 2 (unbalanced),"Seizure=E; Non-seizure=A,B",0.952,0.638
+CNN + Transformer,Subset 2 (unbalanced),"Seizure=E; Non-seizure=A,B",0.896,0.852
+CNN – 6 layers,Subset 3 (balanced),"Seizure=E; Non-seizure=C",0.950,0.908
+CNN + Transformer,Subset 3 (balanced),"Seizure=E; Non-seizure=C",0.893,0.935

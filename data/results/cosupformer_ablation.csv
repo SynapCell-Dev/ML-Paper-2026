@@ -1,0 +1,21 @@
+dataset,variant,accuracy,precision,recall,f1,auroc,auprc
+TDBrain,CoSupFormer,96.04,95.95,96.18,96.05,99.41,99.46
+TDBrain,w/o Contrastive,95.59,94.82,96.46,95.63,99.24,99.30
+TDBrain,w/o Gating,90.28,92.13,88.13,90.05,96.89,97.32
+TDBrain,w/o Global Attention,90.87,89.51,92.92,91.09,97.52,97.88
+TDBrain+Noise,CoSupFormer,94.24,91.89,97.22,94.44,99.29,99.34
+TDBrain+Noise,w/o Contrastive,94.17,93.14,95.63,94.29,98.64,97.77
+TDBrain+Noise,w/o Gating,89.51,86.11,94.24,89.99,97.22,97.55
+TDBrain+Noise,w/o Global Attention,92.67,90.17,95.90,92.91,98.58,98.68
+ADFTD,CoSupFormer,53.79,50.44,50.71,50.36,70.11,53.34
+ADFTD,w/o Contrastive,55.91,52.37,52.35,51.74,71.10,52.71
+ADFTD,w/o Gating,60.65,59.35,53.33,52.58,71.49,58.15
+ADFTD,w/o Global Attention,56.01,55.37,52.61,52.49,71.31,57.81
+ADFTD+Noise,CoSupFormer,52.09,48.71,46.90,46.77,66.38,50.82
+ADFTD+Noise,w/o Contrastive,52.25,50.14,47.59,47.34,67.50,51.64
+ADFTD+Noise,w/o Gating,52.37,48.89,47.79,47.90,66.76,52.60
+ADFTD+Noise,w/o Global Attention,54.43,59.41,49.79,49.62,68.99,55.43
+MACO,CoSupFormer,78.06,77.90,76.01,76.17,90.28,84.89
+MACO,w/o Contrastive,77.06,76.86,75.59,75.34,89.48,83.23
+MACO,w/o Gating,73.85,72.89,74.58,72.59,90.76,84.19
+MACO,w/o Global Attention,77.60,78.13,75.63,75.35,92.14,86.66

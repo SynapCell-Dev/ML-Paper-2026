@@ -1,0 +1,10 @@
+dataset,model,accuracy,precision,recall,f1,auroc,auprc
+TDBrain+Noise,CrossFormer,68.77,66.03,78.29,71.44,77.60,78.11
+TDBrain+Noise,MedFormer,49.79,49.85,74.29,59.65,50.27,50.61
+TDBrain+Noise,CoSupFormer,94.98,93.86,96.46,95.09,99.31,99.37
+ADFTD+Noise,CrossFormer,49.88,46.96,45.17,45.12,63.66,46.81
+ADFTD+Noise,MedFormer,37.63,33.53,33.48,33.15,50.07,33.42
+ADFTD+Noise,CoSupFormer,51.20,47.62,46.50,46.25,66.73,50.96
+MACO,CrossFormer,38.82,12.94,33.33,18.41,50.04,33.55
+MACO,MedFormer,32.29,10.76,33.33,16.01,49.98,33.66
+MACO,CoSupFormer,74.93,73.30,71.68,71.74,87.66,79.52

@@ -1,0 +1,25 @@
+model,task,window,shift,f1
+CNN – 6 layers,Classification,4s,2s,0.818
+CNN – 6 layers,Classification,2s,1s,0.722
+CNN – 6 layers,Detection,4s,2s,0.000
+CNN – 6 layers,Detection,4s,0.5s,0.182
+CNN – 6 layers,Detection,2s,1s,0.381
+CNN – 6 layers,Detection,2s,0.5s,0.496
+CNN-6 + biLSTM,Classification,4s,2s,0.814
+CNN-6 + biLSTM,Classification,2s,1s,0.725
+CNN-6 + biLSTM,Detection,4s,2s,0.000
+CNN-6 + biLSTM,Detection,4s,0.5s,0.160
+CNN-6 + biLSTM,Detection,2s,1s,0.242
+CNN-6 + biLSTM,Detection,2s,0.5s,0.377
+Custom. U-Time,Classification,4s,2s,0.726
+Custom. U-Time,Classification,2s,1s,0.694
+Custom. U-Time,Detection,4s,2s,0.000
+Custom. U-Time,Detection,4s,0.5s,0.000
+Custom. U-Time,Detection,2s,1s,0.000
+Custom. U-Time,Detection,2s,0.5s,0.000
+CNN + Transformer,Classification,4s,2s,0.868
+CNN + Transformer,Classification,2s,1s,0.818
+CNN + Transformer,Detection,4s,2s,0.363
+CNN + Transformer,Detection,4s,0.5s,0.565
+CNN + Transformer,Detection,2s,1s,0.481
+CNN + Transformer,Detection,2s,0.5s,0.529

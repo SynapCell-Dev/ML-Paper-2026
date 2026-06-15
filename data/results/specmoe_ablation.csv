@@ -1,0 +1,8 @@
+variant,BCIC2020_3,DA_Pharmaco,PhysioNet_MI
+SpecMoE (Full),0.6262,0.6229,0.6444
+Time-only Masking,0.5345,0.5794,0.6189
+Freq-only Masking,0.5619,0.6137,0.6288
+TF-only Masking,0.5289,0.5777,0.6193
+Non-Gaussian Masking,0.3929,0.6161,0.5984
+Full Mask+CBraMod,0.2448,0.6095,0.6241
+Gating w/o PSD,0.4063,0.5627,0.6240
