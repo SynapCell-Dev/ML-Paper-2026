@@ -12,7 +12,7 @@
 This interactive Streamlit app walks you through three research papers that push
 the boundaries of EEG analysis with deep learning:
 
-1. **The Detection Challenge** — Thomas et al., *Neuroscience Informatics*, 2026
+1. **The Detection Challenge** — Darankoum et al., *Neuroscience Informatics*, 2026
    Why 95 % classification accuracy does not mean your seizure detector works, and
    how a CNN+Transformer trained on mouse EEG generalises to human data (F1 = 0.935).
 
