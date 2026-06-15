@@ -18,10 +18,12 @@ the boundaries of EEG analysis with deep learning:
    how a CNN+Transformer trained on mouse EEG generalises to human data (F1 = 0.935).
 
 3. **CoSupFormer** — Darankoum et al., *arXiv*, 2025
+
    A dual-path dilated CNN encoder, global gated attention, and a hybrid
    supervised + contrastive loss that delivers noise-robust EEG classification.
 
-4. **SpecMoE** — Darankoum et al., *arXiv*, 2026
+5. **SpecMoE** — Darankoum et al., *arXiv*, 2026
+
    A spectral Mixture-of-Experts foundation model pretrained on ~9 000 hours of
    clinical EEG, achieving state-of-the-art on 7/9 benchmarks including
    cross-species tasks.
