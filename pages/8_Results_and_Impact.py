@@ -189,7 +189,7 @@ st.markdown(section_header("2. The Research Narrative", "How each paper builds o
 events = [
     {"year": 2025, "label": "CoSupFormer", "color": ACCENT_CYAN,
      "description": "Task-specific but robust: dilated CNN + global attention + contrastive loss"},
-    {"year": 2026.0, "label": "Thomas et al.", "color": ACCENT_AMBER,
+    {"year": 2026.0, "label": "Darankoum et al.", "color": ACCENT_AMBER,
      "description": "Real-world detection pipeline, cross-species validation (F1=0.935)"},
     {"year": 2026.25, "label": "SpecMoE", "color": ACCENT_PURPLE,
      "description": "Universal foundation model: 9K hours pre-training, spectral MoE, 7/9 SOTA"},
