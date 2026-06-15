@@ -47,7 +47,7 @@ render_paper_legend_sidebar()
 st.markdown(
     paper_identity_banner(
         "Paper 1",
-        "Thomas et al. — Seizure detection, not just classification",
+        "Darankoum et al. — Seizure detection, not just classification",
     ),
     unsafe_allow_html=True,
 )
