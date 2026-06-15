@@ -37,35 +37,6 @@ the boundaries of EEG analysis with deep learning:
 
 ---
 
-## Local Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/BaguettePrime/Davy_Dev.git
-cd Davy_Dev
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`.
-
----
-
-## Streamlit Cloud Deployment
-
-1. Push the repo to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io).
-3. Select this repository, branch `main`, and main file `app.py`.
-4. Click **Deploy**.
-
-No GPU or large dependencies are required — all results are pre-computed.
-
----
-
 ## Folder Structure
 
 ```
