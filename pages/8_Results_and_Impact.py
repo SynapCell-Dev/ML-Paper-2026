@@ -359,7 +359,7 @@ st.markdown(
 *From epilepsy seizure classification to detection: a deep learning-based approach for raw EEG signals.*
 Neuroscience Informatics, 2026.
 
-**Paper 2** — D. Darankoum, J. Volle, C. Habermacher, S. Grudinin.
+**Paper 2** — D. Darankoum, C. Habermacher, J. Volle, S. Grudinin.
 *CoSupFormer: A Contrastive Supervised Learning Approach for EEG Signal Classification.*
 arXiv:2509.20489, 2025.
 
