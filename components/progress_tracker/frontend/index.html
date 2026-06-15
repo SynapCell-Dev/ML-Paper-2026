@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow: hidden;
+  }
+  .progress-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 16px 8px;
+    width: 100%;
+  }
+  .step-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    min-width: 0;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    flex-shrink: 0;
+  }
+  .circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    border: 2px solid #1e293b;
+    background: #1A1D2E;
+    color: #94a3b8;
+    transition: all 0.2s ease;
+  }
+  .circle.current {
+    width: 36px;
+    height: 36px;
+    border-color: #F59E0B;
+    color: #F59E0B;
+    background: rgba(245, 158, 11, 0.12);
+    font-size: 14px;
+    margin-top: -2px;
+  }
+  .circle.visited {
+    border-color: #06b6d4;
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+  }
+  .label {
+    margin-top: 6px;
+    font-size: 11px;
+    color: #94a3b8;
+    text-align: center;
+    line-height: 1.25;
+    max-width: 90px;
+    word-wrap: break-word;
+  }
+  .label.current {
+    color: #F59E0B;
+    font-weight: 600;
+  }
+  .label.visited {
+    color: #06b6d4;
+  }
+  .connector {
+    flex: 1;
+    height: 2px;
+    background: #1e293b;
+    margin-top: 16px;
+    min-width: 8px;
+  }
+  .connector.active {
+    background: #06b6d4;
+  }
+  @media (max-width: 600px) {
+    .label { display: none; }
+    .progress-container { padding: 10px 8px 6px; }
+    .circle { width: 28px; height: 28px; font-size: 11px; }
+    .circle.current { width: 32px; height: 32px; font-size: 12px; }
+    .connector { margin-top: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="progress-container" id="tracker"></div>
+<script>
+(function() {
+  // Streamlit component communication
+  function sendMessage(type, data) {
+    window.parent.postMessage({ type: type, ...data }, "*");
+  }
+
+  function setFrameHeight(h) {
+    sendMessage("streamlit:setFrameHeight", { height: h });
+  }
+
+  // Signal ready
+  sendMessage("streamlit:componentReady", { apiVersion: 1 });
+
+  function renderComponent(args) {
+    var current = args.current || 1;
+    var visited = args.visited || [];
+    var modules = args.modules || [];
+    var currentColor = args.current_color || "#F59E0B";
+    var container = document.getElementById("tracker");
+    container.innerHTML = "";
+
+    // Convert hex to rgba for semi-transparent background
+    function hexToRgba(hex, alpha) {
+      var h = hex.replace("#", "");
+      var r = parseInt(h.substring(0, 2), 16);
+      var g = parseInt(h.substring(2, 4), 16);
+      var b = parseInt(h.substring(4, 6), 16);
+      return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
+    }
+
+    var visitedSet = {};
+    for (var i = 0; i < visited.length; i++) {
+      visitedSet[visited[i]] = true;
+    }
+
+    for (var idx = 0; idx < modules.length; idx++) {
+      var stepNum = idx + 1;
+      var isCurrent = stepNum === current;
+      var isVisited = !!visitedSet[stepNum] && !isCurrent;
+
+      // Step element
+      var stepEl = document.createElement("div");
+      stepEl.className = "step";
+
+      var circleEl = document.createElement("div");
+      circleEl.className = "circle";
+      if (isCurrent) {
+        circleEl.className += " current";
+        circleEl.style.borderColor = currentColor;
+        circleEl.style.color = currentColor;
+        circleEl.style.background = hexToRgba(currentColor, 0.12);
+      } else if (isVisited) {
+        circleEl.className += " visited";
+      }
+
+      if (isVisited) {
+        circleEl.textContent = "\u2713";
+      } else {
+        circleEl.textContent = stepNum;
+      }
+
+      var labelEl = document.createElement("div");
+      labelEl.className = "label";
+      if (isCurrent) {
+        labelEl.className += " current";
+        labelEl.style.color = currentColor;
+      } else if (isVisited) {
+        labelEl.className += " visited";
+      }
+      labelEl.textContent = modules[idx];
+
+      stepEl.appendChild(circleEl);
+      stepEl.appendChild(labelEl);
+      container.appendChild(stepEl);
+
+      // Connector between steps
+      if (idx < modules.length - 1) {
+        var conn = document.createElement("div");
+        conn.className = "connector";
+        var nextNum = stepNum + 1;
+        var leftDone = !!visitedSet[stepNum] || isCurrent;
+        var rightDone = !!visitedSet[nextNum] || nextNum === current;
+        if (leftDone && rightDone) {
+          conn.className += " active";
+        }
+        container.appendChild(conn);
+      }
+    }
+
+    // Set frame height after rendering
+    requestAnimationFrame(function() {
+      var h = document.body.scrollHeight + 4;
+      setFrameHeight(h);
+    });
+  }
+
+  window.addEventListener("message", function(event) {
+    if (event.data && event.data.type === "streamlit:render") {
+      renderComponent(event.data.args);
+    }
+  });
+})();
+</script>
+</body>
+</html>
