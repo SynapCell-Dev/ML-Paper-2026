@@ -96,7 +96,7 @@ st.markdown(
 # ===========================================================================
 # Paper 1 datasets
 # ===========================================================================
-st.markdown(section_header("Paper 1 — Thomas et al. (Detection Challenge)"),
+st.markdown(section_header("Paper 1 — Darankoum et al. (Detection Challenge)"),
             unsafe_allow_html=True)
 
 st.markdown(
