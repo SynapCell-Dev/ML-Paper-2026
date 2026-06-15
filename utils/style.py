@@ -272,8 +272,8 @@ FOOTER_HTML = f"""
 <hr style="border-color:{BG_CARD};margin-top:48px;">
 <div style="text-align:center;padding:24px 0;color:{TEXT_SECONDARY};font-size:0.8rem;">
     <strong>EEG DeepDive</strong> — An educational companion to three research papers<br>
-    Authors: David Darankoum, Romain Thomas &amp; collaborators<br>
-    Affiliations: Univ. Grenoble Alpes &middot; SynapCell<br>
+    Authors: Julien Volle &amp; collaborators<br>
+    Affiliations: SynapCell<br>
     <em>This app is for educational purposes only. No clinical decisions should be based on its content.</em>
 </div>
 """
