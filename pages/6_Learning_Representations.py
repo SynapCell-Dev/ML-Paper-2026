@@ -43,7 +43,7 @@ render_paper_legend_sidebar()
 st.markdown(
     paper_identity_banner(
         "Paper 2, Paper 3",
-        "Bridge — from CoSupFormer's contrastive loss to SpecMoE's foundation model",
+        "Bridge — from single task CoSupFormer model to multi-task SpecMoE foundation model",
     ),
     unsafe_allow_html=True,
 )
@@ -260,8 +260,8 @@ st.latex(
 st.markdown(
     callout_box(
         "When &lambda; = 0 we recover standard cross-entropy (SupFormer). "
-        "As &lambda; increases, the embedding space is increasingly structured by "
-        "class relationships -- improving cross-subject generalization.",
+        "Increasing &lambda structures the embedding space by class and aids generalization, but only up to &lambda ≈ 0.4;"
+        "beyond that, performance drops, as cross-entropy loss can't be fully replaced by the contrastive term. ",
         "🎯",
         ACCENT_CYAN,
     ),
