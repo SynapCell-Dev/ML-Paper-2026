@@ -187,8 +187,8 @@ st.markdown(
     f"""<div style="color:{TEXT_SECONDARY};font-size:0.95rem;line-height:1.7;max-width:800px;margin:16px 0;">
     <strong>Three experts</strong> are pretrained on different TUEG subsets (~300k-400k samples each).
     During fine-tuning, a <strong>PSD-based gating mechanism</strong> computes the signal's spectral
-    fingerprint and weights the contribution of each expert to achieve the downstream task targeted. Different tasks activate different
-    expert combinations.
+    fingerprint and weights the contribution of each expert to achieve the downstream task targeted. 
+    Different tasks activate different expert combinations.
     </div>""",
     unsafe_allow_html=True,
 )
