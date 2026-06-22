@@ -377,7 +377,7 @@ def _spechinet_html() -> str:
     return f"""
     <div style="text-align:center;padding:16px;">
         <div style="color:{TEXT_PRIMARY};font-size:1.1rem;font-weight:700;margin-bottom:12px;">SpecHi-Net: U-shaped Hierarchical Encoder-Decoder</div>
-        {_box("STFT Spectrogram Input", TEXT_SECONDARY, "200px")}
+        {_box("Raw EEG Input", TEXT_SECONDARY, "200px")}
         {_arrow_down()}
         <div style="display:flex;justify-content:center;gap:8px;align-items:center;">
             <div style="text-align:center;">
