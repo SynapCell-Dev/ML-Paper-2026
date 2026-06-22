@@ -36,7 +36,7 @@ st.markdown(
     info_paragraph(
         "EEG signals are rich, noisy, and deeply personal.  Over the course of three "
         "research papers we tackled a single question from multiple angles: "
-        "<em><strong style=\"color:#e2e8f0;\">How can deep learning reliably decode brain activity?</strong>"
+        "<em><strong style=\"color:#e2e8f0;\">How can deep learning reliably decode brain activity?</strong><br><br>"
         "</em>  This interactive app walks you through the ideas, the "
         "architectures, and the results&mdash;whether you work in pharma, study "
         "neuroscience, or build machine-learning models."
