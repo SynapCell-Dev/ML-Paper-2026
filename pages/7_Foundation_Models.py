@@ -254,7 +254,7 @@ if dataset_choice == "BCIC2020_3":
         callout_box(
             "On BCIC2020-3 (imagined speech), replacing SpecHi-Net with CBraMod causes a "
             "<strong>catastrophic collapse</strong> from 0.626 to 0.245 — confirming that the hierarchical "
-            "architecture is essential for complex spectral tasks.",
+            "architecture is essential to recover the masked parts of EEG signals under our aggressive masking strategy.",
             "💥", ACCENT_RED,
         ),
         unsafe_allow_html=True,
