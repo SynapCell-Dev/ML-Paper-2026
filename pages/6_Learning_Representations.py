@@ -259,9 +259,9 @@ st.latex(
 
 st.markdown(
     callout_box(
-        "When &lambda; = 0 we recover standard cross-entropy (SupFormer). "
-        "Increasing &lambda structures the embedding space by class and aids generalization, but only up to &lambda ≈ 0.4;"
-        "beyond that, performance drops, as cross-entropy loss can't be fully replaced by the contrastive term. ",
+        "When λ = 1, we recover standard cross-entropy (SupFormer). "
+        "Lowering λ adds contrastive structure and aids generalization, but only down to λ ≈ 0.6;"
+        "below that, performance drops, as cross-entropy can't be fully replaced by the contrastive term. ",
         "🎯",
         ACCENT_CYAN,
     ),
