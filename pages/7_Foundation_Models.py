@@ -169,7 +169,7 @@ st.markdown(
     f"""<div style="color:{TEXT_SECONDARY};font-size:0.95rem;line-height:1.7;max-width:800px;margin-top:16px;">
     SpecHi-Net uses a <strong>U-shaped</strong> architecture with:<br>
     • <strong>3 downsampling stages</strong>: dual-path convolutions at each level extract multi-scale features<br>
-    • <strong>Global transformer layers</strong>: capture long-range dependencies across the compressed representation<br>
+    • <strong>Global transformer layers</strong>: capture short- and long-range dependencies across the compressed representation<br>
     • <strong>3 upsampling stages</strong>: skip connections preserve fine-grained details from earlier layers<br>
     • <strong>Multi-level reconstruction losses</strong>: ensure accurate signal recovery at every scale
     </div>""",
