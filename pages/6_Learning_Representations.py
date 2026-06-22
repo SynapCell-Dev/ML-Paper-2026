@@ -253,8 +253,8 @@ CoSupFormer combines cross-entropy and contrastive objectives via a weighted sum
 )
 
 st.latex(
-    r"\mathcal{L}_{\text{total}} = "
-    r"\mathcal{L}_{\text{CE}} + \lambda \, \mathcal{L}_{\text{contrastive}}"
+    r"\mathcal{L} = \lambda \mathcal{L}_{\text{CE}} + "
+    r"(1 - \lambda)\,\mathcal{L}_{\text{NT-Xent}}"
 )
 
 st.markdown(
