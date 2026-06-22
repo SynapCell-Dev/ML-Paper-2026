@@ -360,8 +360,8 @@ st.markdown(
     "sequence looks at every other position and decides how much to listen to it."
     "<br><br>"
     "For each position the model computes three vectors: a <strong>Query (Q)</strong> — "
-    "'what am I looking for?', a <strong>Key (K)</strong> — 'what do I offer?', and a "
-    "<strong>Value (V)</strong> — 'what information do I carry?'. The attention weight "
+    "'What am I searching for?', a <strong>Key (K)</strong> — 'What topics am I associated with?', and a "
+    "<strong>Value (V)</strong> — 'What content do I provide?'. The attention weight "
     "from position <em>i</em> to position <em>j</em> is the similarity between "
     "<em>Q<sub>i</sub></em> and <em>K<sub>j</sub></em>, passed through a softmax."
     "</div>",
@@ -516,7 +516,7 @@ with col_p3:
             f'<div style="margin-bottom:8px;">{paper_badge("Paper 3")}</div>'
             f'<h4 style="color:{ACCENT_PURPLE};margin:4px 0 8px 0;">U-Net CNN + Transformer + MoE</h4>'
             f'<div style="color:{TEXT_SECONDARY};font-size:0.88rem;line-height:1.6;">'
-            "SpecMoE operates on STFT spectrograms. A <strong>U-shaped CNN</strong> "
+            "SpecMoE operates on raw signals. A <strong>U-shaped CNN</strong> "
             "encodes/decodes them, a <strong>transformer</strong> reasons over the "
             "compressed representation, and a <strong>spectral Mixture-of-Experts</strong> "
             "routes different frequency regimes to different sub-networks."
