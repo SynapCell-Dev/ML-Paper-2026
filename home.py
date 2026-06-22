@@ -116,7 +116,7 @@ with p1:
 with p2:
     st.markdown(
         paper_card(paper_badge("Paper 2"), "CoSupFormer",
-                   "Darankoum et al.", "arXiv, 2025", ACCENT_CYAN),
+                   "Darankoum et al.", "IJCNN - International Joint Conference on Neural Networks, 2026", ACCENT_CYAN),
         unsafe_allow_html=True,
     )
 
