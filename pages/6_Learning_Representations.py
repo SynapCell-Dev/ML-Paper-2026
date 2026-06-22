@@ -260,7 +260,7 @@ st.latex(
 st.markdown(
     callout_box(
         "When λ = 1, we recover standard cross-entropy (SupFormer). "
-        "Lowering λ adds contrastive structure and aids generalization, but only down to λ ≈ 0.6;"
+        "Lowering λ adds contrastive structure and aids generalization, but only down to λ ≈ 0.6; "
         "below that, performance drops, as cross-entropy can't be fully replaced by the contrastive term. ",
         "🎯",
         ACCENT_CYAN,
