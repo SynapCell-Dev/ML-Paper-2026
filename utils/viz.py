@@ -377,10 +377,9 @@ def _spechinet_html() -> str:
     return f"""
     <div style="text-align:center;padding:16px;">
         <div style="color:{TEXT_PRIMARY};font-size:1.1rem;font-weight:700;margin-bottom:12px;">SpecHi-Net: U-shaped Hierarchical Encoder-Decoder</div>
-        {_box("Raw EEG Input", TEXT_SECONDARY, "200px")}
+        {_box("STFT Spectrogram Input", TEXT_SECONDARY, "200px")}
         {_arrow_down()}
-        <div style="display:flex;justify-content:center;gap:8px;align-items:flex-start;">
-            <!-- Encoder: down path -->
+        <div style="display:flex;justify-content:center;gap:8px;align-items:center;">
             <div style="text-align:center;">
                 {_box("Down-1", ACCENT_CYAN, "80px")}
                 {_arrow_down()}
@@ -388,23 +387,23 @@ def _spechinet_html() -> str:
                 {_arrow_down()}
                 {_box("Down-3", ACCENT_CYAN, "80px")}
             </div>
-            <div style="color:{TEXT_SECONDARY};font-size:0.75rem;padding:24px 12px 0;">
-                &#8592; Skip<br>connections &#8594;
+            <div style="color:{TEXT_SECONDARY};font-size:0.75rem;padding:0 12px;">
+                ← Skip<br>connections →
             </div>
-            <!-- Decoder: up path (reads bottom-to-top) -->
             <div style="text-align:center;">
-                {_box("Multi-level Reconstruction Loss", ACCENT_AMBER, "110px")}
-                {_arrow_up()}
                 {_box("Up-1", ACCENT_PURPLE, "80px")}
-                {_arrow_up()}
+                {_arrow_down()}
                 {_box("Up-2", ACCENT_PURPLE, "80px")}
-                {_arrow_up()}
+                {_arrow_down()}
                 {_box("Up-3", ACCENT_PURPLE, "80px")}
             </div>
         </div>
         {_arrow_down()}
-        {_box("Global Transformer", ACCENT_GREEN, "200px")}
-        <div style="color:{TEXT_SECONDARY};font-size:0.72rem;margin-top:6px;">bottleneck: Down-3 &#8594; Global Transformer &#8594; Up-3</div>
+        <div style="display:flex;justify-content:center;gap:8px;margin:8px 0;">
+            {_box("Global Transformer", ACCENT_GREEN, "160px")}
+        </div>
+        {_arrow_down()}
+        {_box("Multi-level Reconstruction Loss", ACCENT_AMBER, "220px")}
     </div>
     """
 
