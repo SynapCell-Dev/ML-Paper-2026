@@ -381,49 +381,49 @@ with path2_col:
     )
 
 # What each path "sees" -- using generate_band_signals
-st.markdown(
-    f'<p style="color:{TEXT_SECONDARY};font-size:0.95rem;margin-top:16px;">'
-    "Below: the frequency bands each path is best at capturing.</p>",
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     f'<p style="color:{TEXT_SECONDARY};font-size:0.95rem;margin-top:16px;">'
+#     "Below: the frequency bands each path is best at capturing.</p>",
+#     unsafe_allow_html=True,
+# )
 
-band_sigs = generate_band_signals(duration_sec=2.0, fs=256, seed=10)
-t_band = np.arange(int(2.0 * 256)) / 256
+# band_sigs = generate_band_signals(duration_sec=2.0, fs=256, seed=10)
+# t_band = np.arange(int(2.0 * 256)) / 256
 
-fig_paths = go.Figure()
-# Path 1 sees high-freq
-hf_signal = band_sigs["beta"] + band_sigs["gamma"]
-fig_paths.add_trace(
-    go.Scatter(
-        x=t_band, y=hf_signal, mode="lines",
-        line=dict(color=ACCENT_CYAN, width=1.5),
-        name="Path 1 sees: Beta + Gamma",
-    )
-)
-# Path 2 sees low-freq
-lf_signal = band_sigs["delta"] + band_sigs["theta"]
-fig_paths.add_trace(
-    go.Scatter(
-        x=t_band, y=lf_signal - 4, mode="lines",
-        line=dict(color=ACCENT_PURPLE, width=1.5),
-        name="Path 2 sees: Delta + Theta",
-    )
-)
+# fig_paths = go.Figure()
+# # Path 1 sees high-freq
+# hf_signal = band_sigs["beta"] + band_sigs["gamma"]
+# fig_paths.add_trace(
+#     go.Scatter(
+#         x=t_band, y=hf_signal, mode="lines",
+#         line=dict(color=ACCENT_CYAN, width=1.5),
+#         name="Path 1 sees: Beta + Gamma",
+#     )
+# )
+# # Path 2 sees low-freq
+# lf_signal = band_sigs["delta"] + band_sigs["theta"]
+# fig_paths.add_trace(
+#     go.Scatter(
+#         x=t_band, y=lf_signal - 4, mode="lines",
+#         line=dict(color=ACCENT_PURPLE, width=1.5),
+#         name="Path 2 sees: Delta + Theta",
+#     )
+# )
 
-fig_paths.update_layout(
-    title="What Each Path Captures",
-    paper_bgcolor=BG_PRIMARY,
-    plot_bgcolor=BG_CARD,
-    font=dict(color=TEXT_PRIMARY),
-    xaxis_title="Time (s)",
-    yaxis_title="Amplitude (offset for clarity)",
-    xaxis=dict(gridcolor="#1e293b"),
-    yaxis=dict(gridcolor="#1e293b"),
-    margin=dict(l=60, r=30, t=50, b=50),
-    height=350,
-    legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
-)
-st.plotly_chart(fig_paths, use_container_width=True)
+# fig_paths.update_layout(
+#     title="What Each Path Captures",
+#     paper_bgcolor=BG_PRIMARY,
+#     plot_bgcolor=BG_CARD,
+#     font=dict(color=TEXT_PRIMARY),
+#     xaxis_title="Time (s)",
+#     yaxis_title="Amplitude (offset for clarity)",
+#     xaxis=dict(gridcolor="#1e293b"),
+#     yaxis=dict(gridcolor="#1e293b"),
+#     margin=dict(l=60, r=30, t=50, b=50),
+#     height=350,
+#     legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
+# )
+# st.plotly_chart(fig_paths, use_container_width=True)
 
 st.markdown(
     callout_box(
