@@ -416,13 +416,13 @@ def _spectral_moe_html() -> str:
         {_arrow_down()}
         {_box("PSD Computation", ACCENT_AMBER, "160px")}
         {_arrow_down()}
-        {_box("Spectral Gating Network", ACCENT_GREEN, "180px")}
-        {_arrow_down()}
         <div style="display:flex;justify-content:center;gap:12px;margin:8px 0;">
             {_box("Expert 1", ACCENT_CYAN, "100px")}
             {_box("Expert 2", ACCENT_PURPLE, "100px")}
             {_box("Expert 3", ACCENT_AMBER, "100px")}
         </div>
+        {_arrow_down()}
+        {_box("Spectral Gating Network", ACCENT_GREEN, "180px")}
         {_arrow_down()}
         {_box("Weighted Combination", ACCENT_GREEN, "180px")}
         {_arrow_down()}
