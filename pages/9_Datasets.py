@@ -336,7 +336,7 @@ st.markdown(section_header("A Few Notes on Provenance"), unsafe_allow_html=True)
 st.markdown(
     f'<div style="color:{TEXT_SECONDARY};font-size:0.9rem;line-height:1.7;max-width:900px;">'
     "<ul style='margin:0;padding-left:20px;'>"
-    "<li><strong>MACO and DA-Pharmaco</strong> are proprietary SynapCell preclinical "
+    "<li><strong>MACO</strong> are proprietary SynapCell preclinical "
     "datasets collected in freely-behaving rodents.</li>"
     "<li><strong>TDBrain and ADFTD</strong> are publicly released clinical datasets "
     "commonly used as benchmarks in the EEG deep-learning literature.</li>"
