@@ -336,8 +336,8 @@ st.markdown(section_header("A Few Notes on Provenance"), unsafe_allow_html=True)
 st.markdown(
     f'<div style="color:{TEXT_SECONDARY};font-size:0.9rem;line-height:1.7;max-width:900px;">'
     "<ul style='margin:0;padding-left:20px;'>"
-    "<li><strong>MACO</strong> are proprietary SynapCell preclinical "
-    "datasets collected in freely-behaving rodents.</li>"
+    "<li><strong>MACO</strong> is a proprietary SynapCell preclinical "
+    "dataset collected in freely-behaving rodents.</li>"
     "<li><strong>TDBrain and ADFTD</strong> are publicly released clinical datasets "
     "commonly used as benchmarks in the EEG deep-learning literature.</li>"
     "<li><strong>TUEG</strong> is the Temple University Hospital EEG Corpus — one "
