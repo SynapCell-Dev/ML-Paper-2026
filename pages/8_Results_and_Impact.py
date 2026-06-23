@@ -361,7 +361,7 @@ Neuroscience Informatics, 2026.
 
 **Paper 2** — D. Darankoum, C. Habermacher, J. Volle, S. Grudinin.
 *CoSupFormer: A Contrastive Supervised Learning Approach for EEG Signal Classification.*
-arXiv:2509.20489, 2025.
+IJCNN - International Joint Conference on Neural Networks, 2026.
 
 **Paper 3** — D. Darankoum, C. Habermacher, J. Volle, S. Grudinin.
 *SpecMoE: Spectral Mixture-of-Experts Foundation Model for Cross-Species EEG Decoding.*
